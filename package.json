@@ -1,10 +1,11 @@
 {
   "name": "workflow-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nodejs workflow builder for automate creating the web site.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage", 
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
