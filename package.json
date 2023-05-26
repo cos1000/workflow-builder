@@ -1,12 +1,12 @@
 {
   "name": "workflow-builder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nodejs workflow builder for automate creating the web site.",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
     "start": "nodemon index.js",
-    "lint": "eslint src --ext .ts",
+    "lint": "eslint **/*.js",
     "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/cos1000/workflow-builder#readme",
   "devDependencies": {
-    "eslint": "^8.38.0",
+    "eslint": "^8.41.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
